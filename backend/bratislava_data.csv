@@ -1,26 +1,214 @@
-﻿Kraj - kód,Kraj - názov,Okres - kód,Okres - názov,Obec - kód,Obec - názov,Základná sídelná jednotka - kód,Základná sídelná jednotka - názov,Miesto trvalého pobytu alebo obvyklého bydliska - zhodné s trvalým pobytom,Miesto trvalého pobytu alebo obvyklého bydliska - inde v SR,Miesto trvalého pobytu alebo obvyklého bydliska - v zahraničí,Spolu
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2040640,Hradný svah,192,4,12,208
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2040720,Lýceum,1849,32,17,1898
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2040810,Pamätník SNP,229,11,3,243
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2040990,Bratislava - historické jadro,1258,31,8,1297
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041020,Reduta,1626,44,11,1681
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041110,Podhradie,340,6,3,349
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041290,Park kultúry,44,,,44
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041370,Vinárky,797,10,4,811
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041450,Bôrik,2135,34,21,2190
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041530,Na Hrebienku,2608,55,27,2690
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041610,Partizánska,2101,49,17,2167
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041700,Slavín,2069,48,22,2139
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041880,Štefánka,1170,24,1,1195
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041960,Charitas,745,20,20,785
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2042000,Metropol,684,19,4,707
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2042180,Rajská ulica,852,19,3,874
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2042260,Bezručova ulica,1423,41,9,1473
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2042340,Jakubovo námestie,2331,64,23,2418
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2042420,Justičný palác,1939,43,14,1996
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2044550,Dubová ulica,1592,30,9,1631
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2044800,Holý vrch,588,9,8,605
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2045010,Kalvária,670,13,6,689
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2045100,Sokolovňa,815,23,5,843
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2045520,Karpatská ulica,1858,45,12,1915
-1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2045610,Banskobystrická ulica,566,18,4,588
+﻿Kraj - kód,Kraj - názov,Okres - kód,Okres - názov,Obec - kód,Obec - názov,Základná sídelná jednotka - kód,Základná sídelná jednotka - názov,Miesto trvalého pobytu alebo obvyklého bydliska - zhodné s trvalým pobytom,Miesto trvalého pobytu alebo obvyklého bydliska - inde v SR,Miesto trvalého pobytu alebo obvyklého bydliska - v zahraničí,Spolu,ObjectId
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2040640,Hradný svah,192,4,12,208,1
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2040720,Lýceum,1849,32,17,1898,2
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2040810,Pamätník SNP,229,11,3,243,3
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2040990,Bratislava - historické jadro,1258,31,8,1297,4
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041020,Reduta,1626,44,11,1681,5
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041110,Podhradie,340,6,3,349,6
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041290,Park kultúry,44,,,44,7
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041370,Vinárky,797,10,4,811,8
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041450,Bôrik,2135,34,21,2190,9
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041530,Na Hrebienku,2608,55,27,2690,10
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041610,Partizánska,2101,49,17,2167,11
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041700,Slavín,2069,48,22,2139,12
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041880,Štefánka,1170,24,1,1195,13
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2041960,Charitas,745,20,20,785,14
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2042000,Metropol,684,19,4,707,15
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2042180,Rajská ulica,852,19,3,874,16
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2042260,Bezručova ulica,1423,41,9,1473,17
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2042340,Jakubovo námestie,2331,64,23,2418,18
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2042420,Justičný palác,1939,43,14,1996,19
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2044550,Dubová ulica,1592,30,9,1631,20
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2044800,Holý vrch,588,9,8,605,21
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2045010,Kalvária,670,13,6,689,22
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2045100,Sokolovňa,815,23,5,843,23
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2045520,Karpatská ulica,1858,45,12,1915,24
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2045610,Banskobystrická ulica,566,18,4,588,25
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2045790,Nová scéna,500,12,4,516,26
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2045870,Rektorát techniky,69,3,,72,27
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2045950,Avion,2310,54,15,2379,28
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2046090,Vazovova,1104,30,4,1138,29
+1,Bratislavský kraj,101,Bratislava I,528595,Bratislava - Staré Mesto,2061300,Žilinská ulica,3012,78,24,3114,30
+1,Bratislavský kraj,102,Bratislava II,529311,Bratislava - Podunajské Biskupice,2477580,Podunajské Biskupice - západ,4649,82,15,4746,31
+1,Bratislavský kraj,102,Bratislava II,529311,Bratislava - Podunajské Biskupice,2793740,Hydrostav,275,1,,276,32
+1,Bratislavský kraj,102,Bratislava II,529311,Bratislava - Podunajské Biskupice,2793820,Medzi jarkami,4065,82,21,4168,33
+1,Bratislavský kraj,102,Bratislava II,529311,Bratislava - Podunajské Biskupice,2793910,Dolné hony - juh,4826,111,15,4952,34
+1,Bratislavský kraj,102,Bratislava II,529311,Bratislava - Podunajské Biskupice,2794040,Podunajské Biskupice - centrum,3610,81,18,3709,35
+1,Bratislavský kraj,102,Bratislava II,529311,Bratislava - Podunajské Biskupice,2794120,Orenburská ulica,2319,23,8,2350,36
+1,Bratislavský kraj,102,Bratislava II,529311,Bratislava - Podunajské Biskupice,2794210,Lesný hon,316,3,,319,37
+1,Bratislavský kraj,102,Bratislava II,529311,Bratislava - Podunajské Biskupice,2794630,Kopáč,88,2,1,91,38
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2042510,Koceľova ulica,2021,43,25,2089,39
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2042690,Sídlisko >500 bytov<,2198,38,12,2248,40
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2042770,Zvolenská ulica,3512,75,26,3613,41
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2042850,Ružová dolina,5003,93,25,5121,42
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2043070,Plynárenské závody,191,3,,194,43
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2043150,Pálenisko,350,6,2,358,44
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2043230,Prístav,18,1,,19,45
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2046680,Jelačičova ulica,1949,36,7,1992,46
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2046760,Priemyselný obvod Miletičova,616,5,,621,47
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2046840,Starý Ružinov,4661,120,46,4827,48
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2053460,Trnávka - juh,2946,42,13,3001,49
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2053540,Trnávka - sever,3211,58,19,3288,50
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2053890,Krajná ulica,544,4,3,551,51
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2053970,Ivanská cesta - skleníky,25,,,25,52
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2054010,Pri letisku Ivanka,44,1,,45,53
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2054190,Letisko Ivanka,16,,,16,54
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2048200,Stará Vajnorská cesta,340,10,3,353,55
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2048380,Biely kríž,879,16,5,900,56
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2048460,Figaro,243,4,,247,57
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2048540,Mladá garda,10,,,10,58
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2048620,Teplická ulica,1300,27,13,1340,59
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2048710,Výskumný ústav zváračský,34,,,34,60
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2053620,Jurajov dvor,873,12,4,889,61
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2053710,Medika,72,1,,73,62
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2059580,Staving,3,,,3,63
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2798380,Sibírska ulica,3656,69,16,3741,64
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2057880,Kopanice,641,3,7,651,65
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2057960,Úžiny,10,,,10,66
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2058180,Krasňany - vozovňa,104,,,104,67
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2058260,Meopta,2891,58,11,2960,68
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2058340,Krasňany,1565,18,8,1591,69
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2058420,Rača,2081,23,8,2112,70
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2058510,Komisárky,3751,60,27,3838,71
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2058690,Stará Rača,1842,20,4,1866,72
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2058770,Technomat,42,10,,52,73
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2058930,Mäsokombinát,129,1,,130,74
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2059070,Pri Šajbách,101,1,,102,75
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2059150,Dopravná ulica,1469,29,7,1505,76
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2059230,Zriaďovacia stanica I,19,2,,21,77
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2794710,Sídlisko >Experimentálka<,640,17,5,662,78
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2794800,Horné Šajby,1130,17,,1147,79
+1,Bratislavský kraj,103,Bratislava III,529354,Bratislava - Rača,2799270,Barónka,2875,47,6,2928,80
+1,Bratislavský kraj,103,Bratislava III,529362,Bratislava - Vajnory,2056640,Ubytovne elektrotechnikov,563,6,4,573,81
+1,Bratislavský kraj,103,Bratislava III,529362,Bratislava - Vajnory,2056720,Nové elektrotechnické závody,5,,,5,82
+1,Bratislavský kraj,103,Bratislava III,529362,Bratislava - Vajnory,2056810,Šprinclov majer,9,2,,11,83
+1,Bratislavský kraj,103,Bratislava III,529362,Bratislava - Vajnory,2057020,Vajnory,4289,46,24,4359,84
+1,Bratislavský kraj,103,Bratislava III,529362,Bratislava - Vajnory,2057110,Družstevný dvor Vajnory,7,,,7,85
+1,Bratislavský kraj,103,Bratislava III,529362,Bratislava - Vajnory,2057370,Pri Vajnorskom letisku,83,,,83,86
+1,Bratislavský kraj,103,Bratislava III,529362,Bratislava - Vajnory,2057530,Vajnorka,15,,,15,87
+1,Bratislavský kraj,104,Bratislava IV,529401,Bratislava - Devín,2052650,Kráľova hora,71,1,1,73,88
+1,Bratislavský kraj,104,Bratislava IV,529401,Bratislava - Devín,2052810,Nad Devínom,126,2,,128,89
+1,Bratislavský kraj,104,Bratislava IV,529401,Bratislava - Devín,2053030,Devín,854,19,3,876,90
+1,Bratislavský kraj,104,Bratislava IV,529401,Bratislava - Devín,2053110,Kameňolom,19,,,19,91
+1,Bratislavský kraj,104,Bratislava IV,529371,Bratislava - Devínska Nová Ves,2106410,Devínska Nová Ves,3341,32,23,3396,92
+1,Bratislavský kraj,104,Bratislava IV,529371,Bratislava - Devínska Nová Ves,2106500,Devínska Nová Ves - východ,1769,23,22,1814,93
+1,Bratislavský kraj,104,Bratislava IV,529371,Bratislava - Devínska Nová Ves,2798710,Sandberg,55,1,,56,94
+1,Bratislavský kraj,104,Bratislava IV,529371,Bratislava - Devínska Nová Ves,2798890,Podhorské,5343,57,23,5423,95
+1,Bratislavský kraj,104,Bratislava IV,529371,Bratislava - Devínska Nová Ves,2798970,Kostolné,4047,59,19,4125,96
+1,Bratislavský kraj,104,Bratislava IV,529371,Bratislava - Devínska Nová Ves,2799010,Devínske jazero,71,,,71,97
+1,Bratislavský kraj,104,Bratislava IV,529371,Bratislava - Devínska Nová Ves,2817270,Volkswagen,720,6,1,727,98
+1,Bratislavský kraj,104,Bratislava IV,529389,Bratislava - Dúbravka,2060160,Tepláreň - západ,4,,,4,99
+1,Bratislavský kraj,104,Bratislava IV,529389,Bratislava - Dúbravka,2060320,Tesla - elektroakustika,2928,44,13,2985,100
+1,Bratislavský kraj,104,Bratislava IV,529389,Bratislava - Dúbravka,2060410,Technické sklo,1338,17,10,1365,101
+1,Bratislavský kraj,104,Bratislava IV,529389,Bratislava - Dúbravka,2060590,Dieliky,340,6,4,350,102
+1,Bratislavský kraj,104,Bratislava IV,529389,Bratislava - Dúbravka,2060670,Bazovského ulica,3845,82,20,3947,103
+1,Bratislavský kraj,104,Bratislava IV,529389,Bratislava - Dúbravka,2060750,Ulica kptRašu,6033,130,39,6202,104
+1,Bratislavský kraj,104,Bratislava IV,529389,Bratislava - Dúbravka,2060830,Zúbekova ulica,3427,88,23,3538,105
+1,Bratislavský kraj,104,Bratislava IV,529389,Bratislava - Dúbravka,2060910,Dúbravka,1042,18,7,1067,106
+1,Bratislavský kraj,104,Bratislava IV,529389,Bratislava - Dúbravka,2061050,Tavaríkova kolónia,5004,89,45,5138,107
+1,Bratislavský kraj,104,Bratislava IV,529389,Bratislava - Dúbravka,2061130,Švábsky vrch,15,,,15,108
+1,Bratislavský kraj,104,Bratislava IV,529389,Bratislava - Dúbravka,2795280,Cabanova ulica,7790,155,51,7996,109
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2044630,Areál Slovenskej akadémie vied,116,,1,117,110
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2051500,Botanická záhrada,352,2,,354,111
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2051680,Prírodovedecká fakulta,54,1,1,56,112
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2051760,Cintorín Slávičie údolie,90,,,90,113
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2051840,Slovenská televízia,25,,,25,114
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2051920,Starý Grunt,486,8,,494,115
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2052060,Poliklinika Karlova Ves,3579,68,18,3665,116
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2052140,Riviéra,3926,65,28,4019,117
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2052220,Dlhé diely - východ,5251,90,55,5396,118
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2052310,Kútiky,6948,150,49,7147,119
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2052570,Metrológia,87,1,1,89,120
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2795360,Dlhé diely - západ,3702,66,25,3793,121
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2798460,Dlhé diely - sever,2567,54,12,2633,122
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2798540,Dlhé diely - stred,4620,77,28,4725,123
+1,Bratislavský kraj,104,Bratislava IV,529397,Bratislava - Karlova Ves,2799190,Internáty,44,1,,45,124
+1,Bratislavský kraj,104,Bratislava IV,529419,Bratislava - Lamač,2059910,Lamač - Podháj,5722,102,57,5881,125
+1,Bratislavský kraj,104,Bratislava IV,529419,Bratislava - Lamač,2060080,Lamač - Segnáre,777,10,2,789,126
+1,Bratislavský kraj,104,Bratislava IV,529427,Bratislava - Záhorská Bystrica,2717990,Záhorská Bystrica,3257,32,28,3317,127
+1,Bratislavský kraj,104,Bratislava IV,529427,Bratislava - Záhorská Bystrica,2794980,Poľný mlyn,3,,,3,128
+1,Bratislavský kraj,104,Bratislava IV,529427,Bratislava - Záhorská Bystrica,2795010,Plánky,74,1,,75,129
+1,Bratislavský kraj,105,Bratislava V,529435,Bratislava - Čunovo,2099880,Čunovo,993,9,8,1010,130
+1,Bratislavský kraj,105,Bratislava V,529443,Bratislava - Jarovce,2222590,Jarovce,1423,7,8,1438,131
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2048890,Sad Janka Kráľa,3,,,3,132
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2048970,Petržalka - centrum,12,,,12,133
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2049350,Gessayova ulica,3913,76,31,4020,134
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2049430,Hálova ulica,5211,101,45,5357,135
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2049600,Vilová ulica,2705,23,8,2736,136
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2050280,Kapitulský dvor,39,,,39,137
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2050360,Kapitulské pole,617,3,2,622,138
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2050440,Matador,140,3,,143,139
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2050520,Ševčenkova ulica,4803,100,37,4940,140
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2050790,Lúky - stred,8640,177,59,8876,141
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2050950,Janíkovské role,16,,,16,142
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2051090,Draždiak,3763,77,38,3878,143
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2051170,Draždiak - horáreň,151,1,1,153,144
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2051250,Dostihová dráha,3204,56,14,3274,145
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2051330,Mlynarovičova ulica,6869,106,46,7021,146
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2795440,Malé centrum,9431,203,74,9708,147
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2795520,Haanova ulica,3360,66,34,3460,148
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2795610,Blagoevova ulica,3629,83,36,3748,149
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2795790,Nové Ovsište,1776,29,8,1813,150
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2795870,Hrobákova ulica,6966,145,56,7167,151
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2795950,Lúky - juh,6983,136,47,7166,152
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2796090,Rovniankova ulica,4056,83,27,4166,153
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2796250,Lúky - sever,4328,72,26,4426,154
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2797490,Lúky - východ,7683,154,49,7886,155
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2797570,Tupolevova ulica,4092,97,36,4225,156
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2797730,Lenardova ulica,8749,158,66,8973,157
+1,Bratislavský kraj,105,Bratislava V,529460,Bratislava - Petržalka,2798200,Bosákova ulica - sever,1984,27,3,2014,158
+1,Bratislavský kraj,105,Bratislava V,529494,Bratislava - Rusovce,2537740,Rusovce,2809,22,14,2845,159
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2054270,Záhradníctvo,34,,,34,160
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2054510,Martinský cintorín,5,,,5,161
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2054600,Štrkovec - sever,4029,69,15,4113,162
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2054780,Štrkovec - juh,4387,104,27,4518,163
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2054860,Ostredky - sever,4132,77,14,4223,164
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2054940,Ostredky - juh,3447,69,25,3541,165
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2055080,Trávniky - západ,3616,70,17,3703,166
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2055160,Trávniky - východ,5240,88,34,5362,167
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2055240,Pošeň - západ,2569,71,7,2647,168
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2055320,Pošeň - východ,4447,97,23,4567,169
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2055590,Strojnícka ulica,608,11,4,623,170
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2055670,Prievoz - východ,2941,67,17,3025,171
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2055750,Prievoz - západ,3124,65,30,3219,172
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2055910,Družstevný dvor Prievoz,92,2,1,95,173
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2056050,Ústredná nákladná stanica,21,1,,22,174
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2056130,Vstupný areál Slovnaft,583,10,1,594,175
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2056210,Slovnaft,139,,,139,176
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2056300,Vlčie hrdlo,37,1,,38,177
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2059660,Zlaté piesky,29,1,,30,178
+1,Bratislavský kraj,102,Bratislava II,529320,Bratislava - Ružinov,2793230,Prievoz - sever,62,6,,68,179
+1,Bratislavský kraj,102,Bratislava II,529338,Bratislava - Vrakuňa,2702700,Hrušov,500,4,2,506,180
+1,Bratislavský kraj,102,Bratislava II,529338,Bratislava - Vrakuňa,2702880,Nová Vrakuňa,1354,20,7,1381,181
+1,Bratislavský kraj,102,Bratislava II,529338,Bratislava - Vrakuňa,2702960,Vrakuňa,7028,115,30,7173,182
+1,Bratislavský kraj,102,Bratislava II,529338,Bratislava - Vrakuňa,2793310,Ubytovňa stavbárov,1310,12,,1322,183
+1,Bratislavský kraj,102,Bratislava II,529338,Bratislava - Vrakuňa,2793400,Dolné hony - sever,7813,155,23,7991,184
+1,Bratislavský kraj,102,Bratislava II,529338,Bratislava - Vrakuňa,2793580,Čistiareň odpadových vôd,32,,1,33,185
+1,Bratislavský kraj,102,Bratislava II,529338,Bratislava - Vrakuňa,2817350,Horné diely,758,9,4,771,186
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2043310,Hrubý Drieňovec,23,,,23,187
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2043400,Kamzík,2,4,,6,188
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2043580,Nad Bielym krížom,564,9,6,579,189
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2043660,Briežky,52,2,1,55,190
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2043740,Železničné depo,381,6,,387,191
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2043820,Koliba,1191,23,22,1236,192
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2044040,Belianska ulica,1977,47,12,2036,193
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2044120,Na Revíne,2706,71,25,2802,194
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2044210,Jelšová ulica,1264,35,9,1308,195
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2044390,Nemocnica Kramáre,342,6,1,349,196
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2044470,Krásna Hôrka,208,7,1,216,197
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2045280,Matúškova ulica,552,8,8,568,198
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2045360,Stráže,146,3,6,155,199
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2046170,Pokrok,1922,38,10,1970,200
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2046250,Podkolibský vodojem,117,3,,120,201
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2046330,Unitas,866,17,4,887,202
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2046410,Jiskrova ulica,1106,27,11,1144,203
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2046920,Pri starej prachárni,2981,79,11,3071,204
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2047060,Pasienky,1496,27,11,1534,205
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2047140,Trnavské mýto,7,,,7,206
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2047220,Elektrotechnické závody,38,1,1,40,207
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2047490,Tehelné pole,3605,98,20,3723,208
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2047570,Ľudová štvrť,1057,32,13,1102,209
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2047650,Zátišie,1567,26,6,1599,210
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2047730,Hostinského sídlisko,1518,35,5,1558,211
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2047810,Brezovská ulica,857,23,4,884,212
+1,Bratislavský kraj,103,Bratislava III,529346,Bratislava - Nové Mesto,2048110,Chemické závody - Istrochem,1326,33,6,1365,213

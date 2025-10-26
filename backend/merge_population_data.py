@@ -47,11 +47,10 @@ def merge_and_convert(geometry_csv: str, population_csv: str, output_geojson: st
     print(f"\n📊 Načítavam populačné dáta: {population_csv}")
     try:
         df_pop = pd.read_csv(population_csv, encoding='utf-8')
+        print(f"✓ Načítaných {len(df_pop)} záznamov (CSV)")
     except Exception as e:
         print(f"✗ CHYBA: {e}")
         sys.exit(1)
-    
-    print(f"✓ Načítaných {len(df_pop)} záznamov")
     
     # 3. Identifikuj stĺpce s kódmi ZSJ
     geom_code_col = None
@@ -68,6 +67,7 @@ def merge_and_convert(geometry_csv: str, population_csv: str, output_geojson: st
     pop_code_col = 'Základná sídelná jednotka - kód'
     if pop_code_col not in df_pop.columns:
         print(f"✗ CHYBA: Nenašiel sa stĺpec '{pop_code_col}' v populačných dátach!")
+        print(f"Dostupné stĺpce: {', '.join(df_pop.columns)}")
         sys.exit(1)
     
     print(f"\n🔗 Spájam podľa:")
@@ -113,7 +113,20 @@ def merge_and_convert(geometry_csv: str, population_csv: str, output_geojson: st
     )
     
     matched = df_merged['pop_total'].notna().sum()
+    unmatched = len(df_geom) - matched
     print(f"✓ Spojených: {matched} / {len(df_geom)} geometrií")
+    
+    if unmatched > 0:
+        print(f"⚠ Nespojených: {unmatched} geometrií (nemajú populačné dáta)")
+        
+        # Zobraz príklady nespojených
+        unmatched_codes = df_merged[df_merged['pop_total'].isna()]['zsj_kod_short'].head(10).tolist()
+        if unmatched_codes:
+            print(f"  Príklady nespojených kódov: {', '.join(unmatched_codes)}")
+            
+            # Skontroluj či existujú v populačných dátach
+            available_codes = df_pop['zsj_kod'].unique()
+            print(f"  Dostupných kódov v populačných dátach: {len(available_codes)}")
     
     if matched == 0:
         print("\n⚠ VAROVANIE: Žiadne záznamy neboli spojené!")
